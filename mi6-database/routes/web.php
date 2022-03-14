@@ -22,4 +22,4 @@ Route::get('/', function () {
 
 // PEOPLE
 
-Route::get('/people-of-interest', 'PeopleController@index')->name('people.index');
+Route::get('people-of-interest', 'PeopleController@index')->name('people.index');
