@@ -16,3 +16,9 @@ yarn-error.log
 /.idea
 /.vscode
 
+
+# added manually after the project creation
+/public/css
+/public/js
+/public/mix-manifest.json
+/public/mix.js.map
