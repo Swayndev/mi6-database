@@ -19,5 +19,7 @@ use App\Http\Controllers\Api\PeopleController;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-
+//api/request
 Route::get('request', 'Api\PeopleController@index');
+
+Route::get('statuses', 'Api\StatusController@index');
